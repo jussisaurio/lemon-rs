@@ -1,3 +1,4 @@
+#![cfg(all(test, not(test)))] // never compile this
 #![feature(test)]
 extern crate test;
 
